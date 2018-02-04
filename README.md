@@ -1,9 +1,9 @@
-Cinemaffinity
+CinemŒ±ffinity
 =============
 
-Applicazione dimostrativa sviluppata come parte del progetto di tesi **"Studio e sperimentazione di metodi per l'interfacciamento tra il linguaggio funzionale Haskell e i sistemi di gestione di basi di dati"** presso l'Universit‡ degli studi di Brescia - Dipartimento di ingegneria dell'informazione (AA 2016-2017).
+Applicazione dimostrativa sviluppata come parte del progetto di tesi **"Studio e sperimentazione di metodi per l'interfacciamento tra il linguaggio funzionale Haskell e i sistemi di gestione di basi di dati"** presso l'Universit√† degli studi di Brescia - Dipartimento di ingegneria dell'informazione (AA 2016-2017).
 
-Il RDBMS utilizzato Ë SQLite 3, ma il programma puÚ essere adattato ad altri sistemi con modifiche minime.
+Il RDBMS utilizzato √® SQLite 3, ma il programma pu√≤ essere adattato ad altri sistemi con modifiche minime.
 
 Requisiti: Haskell Platform con pacchetti base, HDBC, HDBC-sqlite3.
 
@@ -51,21 +51,21 @@ Per tutti i film del catalogo, in formato percentuale:
 
 `mostraGradimentiPercento conn`
 
-Affinit‡ utente-etichetta
+Affinit√† utente-etichetta
 -------------------------
 
 Per una singola etichetta:
 
-`affinit‡E conn "nomeutente" "Etichetta"`
+`affinit√†E conn "nomeutente" "Etichetta"`
 
 Per tutte le etichette dei film in catalogo:
 
-`mostraAffinit‡Etichette conn "nomeutente"`
+`mostraAffinit√†Etichette conn "nomeutente"`
 
-Affinit‡ utente-film
+Affinit√† utente-film
 --------------------
 
-`affinit‡F conn "nomeutente" 1234567`
+`affinit√†F conn "nomeutente" 1234567`
 
 Raccomandazioni personalizzate
 ------------------------------
@@ -77,4 +77,4 @@ Raccomandazione di 5 film:
 Confronto tra preferenze utenti
 -------------------------------
 
-`confrontaAffinit‡Etichette conn "utente1" "utente2"`
+`confrontaAffinit√†Etichette conn "utente1" "utente2"`
